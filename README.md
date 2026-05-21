@@ -1,7 +1,7 @@
 <h1 align="center">Pixzl Homebrew Tap</h1>
 
 <p align="center">
-  Pixzl-Apps für macOS — direkt aus dem Terminal installieren und aktuell halten.
+  Pixzl apps for macOS — install them and keep them up to date right from your terminal.
 </p>
 
 <p align="center">
@@ -13,19 +13,19 @@
 
 ## Installation
 
-Tap einmalig registrieren:
+Register the tap once:
 
 ```sh
 brew tap pixzl/tap
 ```
 
-Danach lässt sich jede App per Cask installieren:
+Then install any app as a cask:
 
 ```sh
 brew install --cask dockpin
 ```
 
-> **Kurzform:** Ohne vorheriges `tap` geht es auch direkt —
+> **Shortcut:** You can also install directly, without tapping first —
 > `brew install --cask pixzl/tap/dockpin`
 
 ## Apps
@@ -37,27 +37,27 @@ brew install --cask dockpin
     </td>
     <td valign="middle">
       <strong>DockPin</strong> &nbsp;<code>dockpin</code><br>
-      Hält das macOS-Dock dauerhaft auf dem Bildschirm, den du wählst — im
-      Multi-Monitor-Setup springt es nicht mehr zwischen den Displays.<br>
-      <sub><a href="https://www.pixzl.de/apps/dockpin">Produktseite</a> &nbsp;·&nbsp; macOS 13 (Ventura) oder neuer</sub>
+      Keeps the macOS Dock pinned to the screen you choose — in multi-monitor
+      setups it no longer jumps between displays.<br>
+      <sub><a href="https://www.pixzl.de/apps/dockpin">Product page</a> &nbsp;·&nbsp; macOS 13 (Ventura) or later</sub>
     </td>
   </tr>
 </table>
 
-## Pflege
+## Maintenance
 
-| Aktion         | Befehl                          |
-| -------------- | ------------------------------- |
-| Aktualisieren  | `brew upgrade --cask dockpin`   |
-| Deinstallieren | `brew uninstall --cask dockpin` |
-| Tap entfernen  | `brew untap pixzl/tap`          |
+| Action     | Command                         |
+| ---------- | ------------------------------- |
+| Update     | `brew upgrade --cask dockpin`   |
+| Uninstall  | `brew uninstall --cask dockpin` |
+| Remove tap | `brew untap pixzl/tap`          |
 
 ---
 
 <p align="center">
   <sub>
-    © 2026 Pixzl · Alle Rechte vorbehalten &nbsp;·&nbsp;
-    <a href="https://www.pixzl.de/impressum">Impressum</a> &nbsp;·&nbsp;
-    <a href="https://www.pixzl.de/datenschutz">Datenschutz</a>
+    © 2026 Pixzl · All rights reserved &nbsp;·&nbsp;
+    <a href="https://www.pixzl.de/impressum">Imprint</a> &nbsp;·&nbsp;
+    <a href="https://www.pixzl.de/datenschutz">Privacy</a>
   </sub>
 </p>

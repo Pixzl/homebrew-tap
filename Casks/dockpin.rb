@@ -4,7 +4,7 @@ cask "dockpin" do
 
   url "https://www.pixzl.de/download/DockPin-#{version}.dmg"
   name "DockPin"
-  desc "Hält das macOS-Dock dauerhaft auf einem gewählten Bildschirm"
+  desc "Pins the macOS Dock to a chosen screen"
   homepage "https://www.pixzl.de/apps/dockpin"
 
   depends_on macos: ">= :ventura"
