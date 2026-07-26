@@ -22,11 +22,11 @@ brew tap pixzl/tap
 Then install any app as a cask:
 
 ```sh
-brew install --cask dockpin
+brew install --cask <app>
 ```
 
 > **Shortcut:** You can also install directly, without tapping first —
-> `brew install --cask pixzl/tap/dockpin`
+> `brew install --cask pixzl/tap/<app>`
 
 ## Apps
 
@@ -42,15 +42,26 @@ brew install --cask dockpin
       <sub><a href="https://www.pixzl.de/apps/dockpin">Product page</a> &nbsp;·&nbsp; macOS 13 (Ventura) or later</sub>
     </td>
   </tr>
+  <tr>
+    <td width="86" align="center" valign="middle">
+      <img src="assets/deploir.webp" width="64" alt="Deploir">
+    </td>
+    <td valign="middle">
+      <strong>Deploir</strong> &nbsp;<code>deploir</code><br>
+      Monitors your Coolify deployments in real time — live status and build
+      logs, with redeploy, restart and rollback right from the menu bar.<br>
+      <sub><a href="https://www.pixzl.de/apps/deploir">Product page</a> &nbsp;·&nbsp; macOS 26 (Tahoe) or later</sub>
+    </td>
+  </tr>
 </table>
 
 ## Maintenance
 
-| Action     | Command                         |
-| ---------- | ------------------------------- |
-| Update     | `brew upgrade --cask dockpin`   |
-| Uninstall  | `brew uninstall --cask dockpin` |
-| Remove tap | `brew untap pixzl/tap`          |
+| Action     | Command                       |
+| ---------- | ----------------------------- |
+| Update     | `brew upgrade --cask <app>`   |
+| Uninstall  | `brew uninstall --cask <app>` |
+| Remove tap | `brew untap pixzl/tap`        |
 
 ---
 
