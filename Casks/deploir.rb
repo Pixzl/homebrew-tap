@@ -1,6 +1,6 @@
 cask "deploir" do
   version "1.0.2"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "c188d71ab2b1a0049d587f4ac2703fde621930d2ec841318cd803ae4be772962"
 
   url "https://www.pixzl.de/download/Deploir-#{version}.dmg"
   name "Deploir"
@@ -8,8 +8,10 @@ cask "deploir" do
   homepage "https://www.pixzl.de/produkte/deploir"
 
   livecheck do
-    url "https://www.pixzl.de/produkte/deploir"
-    strategy :page_match
+    url "https://www.pixzl.de/deploir-latest.json"
+    strategy :json do |json|
+      json["version"]
+    end
   end
 
   auto_updates false
