@@ -8,8 +8,10 @@ cask "deploir" do
   homepage "https://www.pixzl.de/produkte/deploir"
 
   livecheck do
-    url "https://www.pixzl.de/produkte/deploir"
-    strategy :page_match
+    url "https://www.pixzl.de/deploir-latest.json"
+    strategy :json do |json|
+      json["version"]
+    end
   end
 
   auto_updates false
