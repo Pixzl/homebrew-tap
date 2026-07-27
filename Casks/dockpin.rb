@@ -4,7 +4,7 @@ cask "dockpin" do
 
   url "https://www.pixzl.de/download/DockPin-#{version}.dmg"
   name "DockPin"
-  desc "Pins the macOS Dock to a chosen screen"
+  desc "Pins the Dock to a chosen screen"
   homepage "https://www.pixzl.de/produkte/dockpin"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "dockpin" do
   end
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "DockPin.app"
 
