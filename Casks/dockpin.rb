@@ -1,6 +1,6 @@
 cask "dockpin" do
-  version "1.0.2"
-  sha256 "2054c76808fda7fb52413366af8ebb61b56d2a4ae1c304be23a4fc7c68c12abc"
+  version "1.2.0"
+  sha256 "c898640a7cda71782ca67820b1d1b56bd6bd7736d7847c34374cd2fd9051bc90"
 
   url "https://www.pixzl.de/download/DockPin-#{version}.dmg"
   name "DockPin"
@@ -8,11 +8,10 @@ cask "dockpin" do
   homepage "https://www.pixzl.de/produkte/dockpin"
 
   livecheck do
-    url "https://www.pixzl.de/appcast.xml"
-    strategy :sparkle
+    url "https://www.pixzl.de/appcast-2.xml"
+    strategy :sparkle, &:short_version
   end
 
-  auto_updates true
   depends_on macos: :ventura
 
   app "DockPin.app"
@@ -20,6 +19,7 @@ cask "dockpin" do
   uninstall quit: "net.pixzl.DockPin"
 
   zap trash: [
+    "~/Library/Application Support/net.pixzl.DockPin",
     "~/Library/Caches/net.pixzl.DockPin",
     "~/Library/HTTPStorages/net.pixzl.DockPin",
     "~/Library/Preferences/net.pixzl.DockPin.plist",
