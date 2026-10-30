@@ -1,6 +1,6 @@
 cask "dockpin" do
-  version "1.2.0"
-  sha256 "c898640a7cda71782ca67820b1d1b56bd6bd7736d7847c34374cd2fd9051bc90"
+  version "1.3.0"
+  sha256 "988e56429aa7733b52e5c717a9be5eeadad6a5b2faf4580b67aec40c4872eea8"
 
   url "https://www.pixzl.de/download/DockPin-#{version}.dmg"
   name "DockPin"
