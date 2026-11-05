@@ -1,6 +1,6 @@
 cask "deploir" do
-  version "1.0.2"
-  sha256 "c188d71ab2b1a0049d587f4ac2703fde621930d2ec841318cd803ae4be772962"
+  version "1.2.0"
+  sha256 "ab6d79837079398452d76094faebe877ef1d8866c9a5f789e5a729e5195d4195"
 
   url "https://www.pixzl.de/download/Deploir-#{version}.dmg"
   name "Deploir"
