@@ -5,7 +5,7 @@ cask "dockpin" do
   url "https://www.pixzl.de/download/DockPin-#{version}.dmg"
   name "DockPin"
   desc "Pins the Dock to a chosen screen"
-  homepage "https://www.pixzl.de/produkte/dockpin"
+  homepage "https://thedockpin.app"
 
   livecheck do
     url "https://www.pixzl.de/appcast-2.xml"

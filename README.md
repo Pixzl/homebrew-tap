@@ -49,7 +49,7 @@ brew install --cask <app>
       <code>brew install --cask dockpin</code>
       <br><br>
       <sub>
-        <a href="https://www.pixzl.de/produkte/dockpin">Product page</a>
+        <a href="https://thedockpin.app">Website</a>
         &nbsp;·&nbsp; macOS 13 (Ventura) or later
       </sub>
       <br><br>
@@ -69,7 +69,7 @@ brew install --cask <app>
       <code>brew install --cask deploir</code>
       <br><br>
       <sub>
-        <a href="https://www.pixzl.de/produkte/deploir">Product page</a>
+        <a href="https://deploir.app">Website</a>
         &nbsp;·&nbsp; macOS 26 (Tahoe) or later
       </sub>
       <br><br>

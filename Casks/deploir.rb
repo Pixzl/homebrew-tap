@@ -5,7 +5,7 @@ cask "deploir" do
   url "https://www.pixzl.de/download/Deploir-#{version}.dmg"
   name "Deploir"
   desc "Monitors Coolify deployments in real time"
-  homepage "https://www.pixzl.de/produkte/deploir"
+  homepage "https://deploir.app"
 
   livecheck do
     url "https://www.pixzl.de/deploir-latest.json"
