@@ -49,7 +49,7 @@ brew install --cask <app>
       <code>brew install --cask dockpin</code>
       <br><br>
       <sub>
-        <a href="https://www.pixzl.de/apps/dockpin">Product page</a>
+        <a href="https://www.pixzl.de/produkte/dockpin">Product page</a>
         &nbsp;·&nbsp; macOS 13 (Ventura) or later
       </sub>
       <br><br>
@@ -69,7 +69,7 @@ brew install --cask <app>
       <code>brew install --cask deploir</code>
       <br><br>
       <sub>
-        <a href="https://www.pixzl.de/apps/deploir">Product page</a>
+        <a href="https://www.pixzl.de/produkte/deploir">Product page</a>
         &nbsp;·&nbsp; macOS 26 (Tahoe) or later
       </sub>
       <br><br>
@@ -107,7 +107,7 @@ brew uninstall --zap --cask <app>
 
 <div align="center">
   <sub>
-    © 2026 Pixzl · All rights reserved
+    © 2026 Pixzl · <a href="LICENSE">MIT licence</a>
     &nbsp;·&nbsp;
     <a href="https://www.pixzl.de/impressum">Imprint</a>
     &nbsp;·&nbsp;
